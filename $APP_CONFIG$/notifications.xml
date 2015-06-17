@@ -6,7 +6,6 @@
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Execution" displayType="NONE" />
     <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" />
-    <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
     <notification groupId="Git Minor Notifications" />
