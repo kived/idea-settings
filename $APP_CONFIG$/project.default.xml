@@ -1,11 +1,36 @@
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyClassicStyleClassInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ourVersions">
+              <value>
+                <list size="3">
+                  <item index="0" class="java.lang.String" itemvalue="2.7" />
+                  <item index="1" class="java.lang.String" itemvalue="3.3" />
+                  <item index="2" class="java.lang.String" itemvalue="3.4" />
+                </list>
+              </value>
+            </option>
+          </inspection_tool>
+          <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+            <option name="ignoredErrors">
+              <list>
+                <option value="W191" />
+              </list>
+            </option>
+          </inspection_tool>
+        </profile>
+        <option name="PROJECT_PROFILE" value="Project Default" />
+        <option name="USE_PROJECT_PROFILE" value="true" />
+        <version value="1.0" />
+      </component>
       <component name="NamedScopeManager">
         <order />
-      </component>
-      <component name="ProjectDictionaryState">
-        <dictionary name="ryan" />
       </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
@@ -16,9 +41,6 @@
               </State>
               <State>
                 <id>Python</id>
-              </State>
-              <State>
-                <id>Spelling</id>
               </State>
             </expanded-state>
             <selected-state>
@@ -44,63 +66,9 @@
       </component>
       <component name="ProjectRootManager" version="2" />
       <component name="PropertiesComponent">
-        <property name="options.splitter.main.proportions" value="0.3" />
-        <property name="options.lastSelected" value="preferences.keymap" />
-        <property name="options.searchVisible" value="true" />
-        <property name="options.splitter.details.proportions" value="0.2" />
-        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+        <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+        <property name="last_opened_file_path" value="/Applications/Kivy.app/Contents/Resources/python" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-      </component>
-      <component name="PyConsoleOptionsProvider">
-        <option name="myPythonConsoleState">
-          <console-settings is-module-sdk="true">
-            <option name="myUseModuleSdk" value="true" />
-          </console-settings>
-        </option>
-      </component>
-      <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-        <option name="USER" value="" />
-        <option name="PASSWORD" value="" />
-        <option name="mySSHConnectionTimeout" value="30000" />
-        <option name="mySSHReadTimeout" value="30000" />
-        <option name="LAST_MERGED_REVISION" />
-        <option name="MERGE_DRY_RUN" value="false" />
-        <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-        <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-        <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-        <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-        <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-        <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-        <option name="FORCE_UPDATE" value="false" />
-        <option name="IGNORE_EXTERNALS" value="false" />
-        <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-      </component>
-      <component name="VagrantSettings">
-        <option name="instanceFolder" value="" />
-        <option name="vagrantExecutable" value="vagrant" />
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
-      </component>
-      <component name="VcsManagerConfiguration">
-        <option name="myTodoPanelSettings">
-          <TodoPanelSettings />
-        </option>
-      </component>
-      <component name="masterDetails">
-        <states>
-          <state key="ScopeChooserConfigurable.UI">
-            <settings>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-        </states>
       </component>
     </defaultProject>
   </component>
