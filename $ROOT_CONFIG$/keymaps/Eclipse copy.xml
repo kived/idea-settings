@@ -1,0 +1,16 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="F3" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
+  <action id="TabShiftActions.ShiftLeft">
+    <keyboard-shortcut first-keystroke="shift alt OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+  </action>
+  <action id="TabShiftActions.ShiftRight">
+    <keyboard-shortcut first-keystroke="shift alt CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
+  </action>
+</keymap>
