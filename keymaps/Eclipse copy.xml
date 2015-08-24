@@ -2,15 +2,15 @@
   <action id="EmmetNextEditPoint" />
   <action id="EmmetPreviousEditPoint" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="F3" />
+    <keyboard-shortcut first-keystroke="f3" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="TabShiftActions.ShiftLeft">
-    <keyboard-shortcut first-keystroke="shift alt OPEN_BRACKET" />
-    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="TabShiftActions.ShiftRight">
-    <keyboard-shortcut first-keystroke="shift alt CLOSE_BRACKET" />
-    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
 </keymap>
